@@ -1,4 +1,4 @@
-package java.com.concrete.clienthttpshowcase;
+package com.concrete.clienthttpshowcase;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

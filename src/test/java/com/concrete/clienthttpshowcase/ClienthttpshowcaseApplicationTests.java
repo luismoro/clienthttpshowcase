@@ -1,4 +1,4 @@
-package java.com.concrete.clienthttpshowcase;
+package com.concrete.clienthttpshowcase;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

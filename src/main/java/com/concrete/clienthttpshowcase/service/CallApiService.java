@@ -17,11 +17,10 @@ public class CallApiService {
     }
 
     @Async
-    public CompletableFuture<Object> callApi() throws InterruptedException {
-        String url = "http://10.200.11.127:9000/api/httpContent";
-        Object results = restTemplate.getForObject(url, Object.class);
-        // Artificial delay of 1s for demonstration purposes
-        Thread.sleep(1000L);
+    public CompletableFuture<String> callApi(String url) throws InterruptedException {
+        String results = restTemplate.getForObject(url, String.class);
+//        Artificial delay of 1s for demonstration purposes
+//        Thread.sleep(1000L);
         return CompletableFuture.completedFuture(results);
     }
 
